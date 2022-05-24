@@ -2,9 +2,13 @@
     margin: 0;
 }
 
+html{
+    background: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png) no-repeat center fixed;     
+    background-size: cover;
+}
+
 body{
     height: 100vh;
-    background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png);
 }
 
 .all{
@@ -36,6 +40,8 @@ header{
 }
 
 .botoes_final{
+    display: flex;
+    justify-content: space-around;
     background-color: white;
     margin-top: auto;
 }
