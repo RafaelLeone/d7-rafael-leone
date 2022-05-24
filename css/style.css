@@ -61,3 +61,13 @@ header{
     margin: 3%;
     margin-top: 1%;
 }
+
+.test{
+    width: 98%;
+}
+
+.buscar{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+}
