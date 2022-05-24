@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png);
+}
+
+.all{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 4%;
+}
+
+.forms{
+    padding: 5% 2%;
+    background-color: white;
+    margin: 5%;
+}
+
+.form_element{
+    margin: 5% 2%;
+}
+
+.element1{
+    margin-top: 0;
+}
+
+.botoes_final{
+    background-color: white;
+    margin-top: auto;
+}
+
+.viagens_mais_baratas{
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+
+.texto{
+    margin: 3%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.texto2{
+    margin: 3%;
+    margin-top: 1%;
+}
