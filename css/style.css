@@ -80,7 +80,7 @@ i {
 }
 
 .icon{
-    align-self: flex-end;
+    /* align-self: flex-end; */
     padding-top: 20px;
     padding-right: 2px;
     color: green;
