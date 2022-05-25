@@ -5,6 +5,7 @@
 html{
     background: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png) no-repeat center fixed;     
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -25,6 +26,10 @@ header{
     padding: 3% 4%;
 }
 
+.entrar{
+    color: #f15076;
+}
+
 .forms{
     padding: 5% 2%;
     background-color: white;
@@ -35,7 +40,7 @@ header{
     margin: 5% 3%;
     display: flex;
     flex-direction: column;
-
+    height: 50px;
 }
 
 .element1{
@@ -52,6 +57,12 @@ header{
 .viagens_mais_baratas{
     text-transform: uppercase;
     line-height: 2rem;
+    color: white;
+}
+
+.sem_taxas{
+    color: white;
+    font-weight: 100;
 }
 
 .texto{
@@ -67,21 +78,26 @@ header{
 
 .test{
     width: 98%;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .buscar{
     margin-left: 3%;
     margin-right: 3%;
-    width: 94.5%;
-}
-
-i {
-    position: absolute;
+    width: 94.9%;
 }
 
 .icon{
     /* align-self: flex-end; */
     padding-top: 20px;
     padding-right: 2px;
-    color: green;
+    position: absolute;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
