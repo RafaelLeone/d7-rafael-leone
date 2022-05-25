@@ -39,6 +39,7 @@ header{
     background-color: white;
     margin: 5%;
     border-radius: 5px;
+    margin-top: 13px;
 }
 
 .form_element{
@@ -65,13 +66,19 @@ header{
 
 .viagens_mais_baratas{
     text-transform: uppercase;
-    line-height: 2rem;
+    line-height: 1.8rem;
     color: white;
+    padding-left: 3%;
+    font-weight: bolder;
+    font-size: 22px;
 }
 
 .sem_taxas{
     color: white;
     font-weight: 100;
+    padding-top: 10px;
+    margin: 0px;
+    padding-left: 3%;
 }
 
 .texto{
