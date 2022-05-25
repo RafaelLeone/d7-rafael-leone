@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    height: 90vh;
+    height: 100vh;
 }
 
 .all{
@@ -67,6 +67,7 @@ header{
     justify-content: space-around;
     background-color: white;
     margin-top: auto;
+    position:sticky;
 }
 
 .fim{
@@ -119,10 +120,15 @@ header{
 }
 
 .icon{
-    /* align-self: flex-end; */
     padding-top: 33px;
     padding-left: 8px;
     position: absolute;
+}
+
+.icon3{
+    align-self: flex-end;
+    padding-right: 10px;
+    color: rgb(32, 136, 255);
 }
 
 .final{
