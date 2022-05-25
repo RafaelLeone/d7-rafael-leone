@@ -13,14 +13,21 @@ html{
 }
 
 body{
-    height: 100vh;
+    height: 90vh;
 }
 
 .all{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    color: grey;
+    color: rgb(180, 180, 180);
+}
+
+.darker_text{
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
 }
 
 header{
@@ -32,7 +39,8 @@ header{
 }
 
 .entrar{
-    color: #f13460;
+    color: #fc1b50;
+    font-weight: bolder;
 }
 
 .forms{
@@ -47,7 +55,7 @@ header{
     margin: 5% 3%;
     display: flex;
     flex-direction: column;
-    height: 50px;
+    height: 60px;
 }
 
 .element1{
@@ -68,11 +76,11 @@ header{
 
 .viagens_mais_baratas{
     text-transform: uppercase;
-    line-height: 1.8rem;
+    line-height: 2rem;
     color: white;
     padding-left: 3%;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .sem_taxas{
@@ -96,8 +104,8 @@ header{
 
 .test{
     width: 98%;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .buscar{
@@ -112,7 +120,7 @@ header{
 
 .icon{
     /* align-self: flex-end; */
-    padding-top: 25px;
+    padding-top: 33px;
     padding-left: 8px;
     position: absolute;
 }
@@ -122,4 +130,6 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
