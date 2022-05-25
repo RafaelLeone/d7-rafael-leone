@@ -125,6 +125,10 @@ header{
     position: absolute;
 }
 
+.icon2{
+    padding-bottom: 6px;
+}
+
 .icon3{
     align-self: flex-end;
     padding-right: 10px;
